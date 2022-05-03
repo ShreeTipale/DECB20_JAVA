@@ -1,0 +1,27 @@
+package Logical_Programs;
+
+import java.util.Scanner;
+
+public class Verify_User_Input_Number_Even_Odd 
+{
+	public static void main(String[] args)
+	{
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter number");
+		int num = sc.nextInt();
+		
+		if(num%2==0)
+		{
+			System.out.println("The entered number is an Even Number");
+		}
+		else
+		{
+			System.out.println("The entered number is an Odd Number");
+		}
+		
+		
+		
+	}
+
+}
